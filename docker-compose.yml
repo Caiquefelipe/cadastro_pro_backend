@@ -1,0 +1,11 @@
+version: "3.8"
+
+services:
+  database:
+    image: postgres:15
+    environment:
+      POSTGRES_USER: caique
+      POSTGRES_PASSWORD: senha123
+      POSTGRES_DB: api
+    ports:
+      - "5432:5432"
