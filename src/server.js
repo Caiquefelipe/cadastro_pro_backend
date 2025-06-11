@@ -29,6 +29,7 @@ app.post("/clientes", async (req, res) => {
         descricao: req.body.descricao,
       },
     });
+    console.log(novoCliente);
 
     res.status(201).json(novoCliente);
   } catch (error) {
