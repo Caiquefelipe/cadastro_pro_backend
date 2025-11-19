@@ -7,9 +7,9 @@
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "dev": "ts-node src/server.js",
+    "dev": "ts-node src/index.ts",
     "build": "tsc",
-    "start": "node dist/server.js"
+    "start": "node dist/index.ts"
   },
   "dependencies": {
     "@prisma/client": "^6.5.0",
